@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- the theme applied to the application or activity -->
+    <style name="PolimiMobile"
+           parent="@android:style/Theme.Holo.Light">
+
+        <!-- ActionBar theme -->
+        <item name="android:actionBarStyle">@style/PolimiMobile.ActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/PolimiMobile.ActionBarTabText</item>
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!-- Main title theme -->
+
+    </style>
+
+    <!-- ACTION BAR STYLES -->
+
+    <!-- With the drawable background we can customize with the personalized
+     buttons, is very useful.-->
+    <style name="PolimiMobile.ActionBar"
+           parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@color/WhiteSmoke</item>
+        <item name="android:titleTextStyle">@style/PolimiMobile.ActionBarTitleText</item>
+
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="PolimiMobile.ActionBarTitleText"
+           parent="android:TextAppearance">
+
+        <item name="android:textColor">@color/polimiapp_main</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!-- ActionBar tabs text styles -->
+    <style name="PolimiMobile.ActionBarTabText"
+           parent="@android:style/Widget.Holo.ActionBar.TabText">
+
+        <item name="android:textColor">@color/actionbar_text</item>
+
+    </style>
+
+    <!-- TYTLE STYLES -->
+
+    <!-- Comonly used titles font -->
+    <style name="PolimiMobile.tytleTextStyle"
+           parent="android:TextAppearance.Holo.Widget.TextView">
+
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/DarkGray</item>
+        <item name="android:typeface">monospace</item>
+
+    </style>
+
+    <!-- BUTTON STYLES -->
+
+    <style name="PolimiMobile.Button"
+           parent="android:Widget.Holo.Light.Button">
+
+    </style>
+
+
+
+
+</resources>

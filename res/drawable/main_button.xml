@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- On pressed -->
+    <item
+            android:drawable="@color/polimiapp_button_pressed"
+            android:state_pressed="true"
+
+            />
+
+    <!-- On focused -->
+    <item
+            android:drawable="@color/polimiapp_button_focused"
+            android:state_focused="true"
+
+            />
+
+    <!-- Default -->
+    <item
+            android:drawable="@color/polimiapp_main"
+
+            />
+
+</selector>

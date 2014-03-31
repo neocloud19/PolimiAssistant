@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+    <!-- TODO: modificar le icono para que se ajuste mejor a la pantalla -->
+
+    <ImageView
+            android:id="@+id/loginscreen_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/polimi_logo"
+            android:scaleX="0.45"
+            android:scaleY="0.45"
+            android:layout_marginBottom="250dp"
+            android:layout_centerHorizontal="true"/>
+
+    <!-- Todo: Eliminar el pedazo de codigo que se refiere al titulo para el final
+    <TextView
+            android:id="@+id/loginscreen_text_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="40dp"
+            android:textColor="@color/polimiapp_main"
+            android:textStyle="bold"
+            android:layout_alignBottom="@id/loginscreen_icon"
+            android:layout_centerHorizontal="true"/>
+
+            -->
+
+
+    <!-- REF: The size of the text is given by trail and error.  -->
+    <EditText
+            android:id="@+id/loginscreen_input_username"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+
+            android:inputType="number"
+            android:singleLine="true"
+            android:hint="@string/username"
+            android:textColorHint="@color/LightGrey"
+            android:textSize="17dp"
+            android:textColor="@color/DarkGray"
+            android:typeface="monospace"
+            android:textAlignment="center"
+
+            android:layout_alignBottom="@id/loginscreen_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+            android:id="@+id/loginscreen_input_password"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+
+            android:inputType="textPassword"
+            android:hint="@string/password"
+            android:textColorHint="@color/LightGrey"
+            android:textSize="17dp"
+            android:textColor="@color/DarkGray"
+            android:textAlignment="center"
+
+            android:layout_below="@id/loginscreen_input_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"/>
+
+
+    <Button
+            android:id="@+id/loginscreen_loginbutton"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:onClick="login"
+
+            android:text="@string/login"
+            android:textColor="@color/White"
+            android:textStyle="bold"
+            android:background="@drawable/main_button"
+
+            android:layout_below="@id/loginscreen_input_password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"/>
+
+</RelativeLayout>

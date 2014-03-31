@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LOGIN STRINGS -->
+    <string name="app_name">Polimi Mobile</string>
+    <string name="username">Write your student number</string>
+    <string name="password">Write your password here</string>
+    <string name="login">Login to Polimi!</string>
+    <string name="valid_credentials">Correct, Lets go!</string>
+    <string name="invalid_credentials">Something is wrong with your username or password!</string>
+
+    <!-- ACTION BAR MENU STRINGS -->
+    <string name="action_about">Information about the app</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- LAYOUTS -->
+    <string name="layout_title_splashscreen">Polimi Mobile</string>
+    <string name="layout_title_menu">Menu</string>
+    <string name="layout_title_login">Login</string>
+
+</resources>
