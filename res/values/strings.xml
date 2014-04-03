@@ -9,11 +9,16 @@
     <string name="valid_credentials">Correct, Lets go!</string>
     <string name="invalid_credentials">Something is wrong with your username or password!</string>
     <string name="login_checkstore">Remember me!</string>
-    <string name="login_store_responsibility">
-        If you checked this box, you accept that the application will store you data in the device
-        in the best way possible known to the developers. And the Creators of the app or any entity
-        associated with this applications holds no responsibility if the data is breach by a third party.
+
+    <!-- LOGIN STRINGS: Responsibility acceptance message -->
+    <string name="login_storing_responsibility_message">
+        Checking this options enable Polimi Assistant to save your login information in your mobile device.
+        The developers and all the entities associated with this app, are not responsible for any use that
+        the user or third parties give to it, in case they have access to it.
     </string>
+    <string name="login_storing_responsibility_title">Responsibility exemption</string>
+    <string name="login_storing_responsibility_yes">Yes</string>
+    <string name="login_storing_responsibility_no">No</string>
 
     <!-- ACTION BAR MENU STRINGS -->
     <string name="action_about">Information about the app</string>

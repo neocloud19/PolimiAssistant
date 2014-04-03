@@ -30,9 +30,7 @@
   <component name="ChangeListManager">
     <list default="true" id="20799b1f-062c-47b6-85fa-3a971d25bead" name="Default" comment="Insert checkbox into the login screen&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login_screen.xml" afterPath="$PROJECT_DIR$/res/layout/login_screen.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Polimi Assitant.iws" />
@@ -100,10 +98,11 @@
       <file leaf-file-name="login_screen.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/login_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="47" selection-start="2907" selection-end="2907" vertical-scroll-proportion="1.2653061" vertical-offset="2542" max-vertical-offset="3833">
+            <state line="78" column="47" selection-start="2907" selection-end="2907" vertical-scroll-proportion="1.2653061" vertical-offset="2542" max-vertical-offset="3538">
               <folding>
                 <element signature="e#1567#1585#0" expanded="true" />
                 <element signature="e#2241#2259#0" expanded="true" />
+                <element signature="e#2833#2859#0" expanded="true" />
                 <element signature="e#3292#3307#0" expanded="true" />
               </folding>
             </state>
@@ -116,12 +115,15 @@
       <file leaf-file-name="LoginScreen.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="9" selection-start="4965" selection-end="4965" vertical-scroll-proportion="0.23433875" vertical-offset="4541" max-vertical-offset="5698">
+            <state line="86" column="32" selection-start="2701" selection-end="2701" vertical-scroll-proportion="3.3897707" vertical-offset="403" max-vertical-offset="7015">
               <folding>
-                <element signature="e#2118#2749#0" expanded="true" />
-                <element signature="e#2437#2498#0" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#4699#4751#0" expanded="true" />
+                <element signature="e#2463#5442#0" expanded="true" />
+                <element signature="e#2944#3044#0" expanded="true" />
+                <element signature="e#3081#3179#0" expanded="true" />
+                <element signature="e#3214#3310#0" expanded="true" />
+                <element signature="e#3344#3439#0" expanded="true" />
+                <element signature="e#5431#5432#0" expanded="true" />
+                <element signature="e#7453#7505#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -373,6 +375,22 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="148" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="184" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="191" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1315" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="186" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="193" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1317" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -565,6 +583,11 @@
       <created>1394903068495</created>
       <updated>1394903068495</updated>
     </task>
+    <task id="LOCAL-00001" summary="Insert checkbox into the login screen&#10;">
+      <created>1396519948722</created>
+      <updated>1396519948722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -591,7 +614,7 @@
     <frame x="-1" y="39" width="1922" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -603,9 +626,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.3388651" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1960" y="0" width="1321" height="768" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19860813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -961,6 +984,7 @@
           <folding>
             <element signature="e#1567#1585#0" expanded="true" />
             <element signature="e#2241#2259#0" expanded="true" />
+            <element signature="e#2833#2859#0" expanded="true" />
             <element signature="e#3292#3307#0" expanded="true" />
           </folding>
         </state>
@@ -971,19 +995,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="98" selection-start="771" selection-end="771" vertical-scroll-proportion="0.51403064" vertical-offset="0" max-vertical-offset="1590">
+        <state line="9" column="14" selection-start="384" selection-end="384" vertical-scroll-proportion="-0.8241309" vertical-offset="682" max-vertical-offset="1450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="9" selection-start="4965" selection-end="4965" vertical-scroll-proportion="0.23433875" vertical-offset="4541" max-vertical-offset="5698">
+        <state line="86" column="32" selection-start="2701" selection-end="2701" vertical-scroll-proportion="3.3897707" vertical-offset="403" max-vertical-offset="7015">
           <folding>
-            <element signature="e#2118#2749#0" expanded="true" />
-            <element signature="e#2437#2498#0" expanded="true" />
-            <element signature="e#2738#2739#0" expanded="true" />
-            <element signature="e#4699#4751#0" expanded="true" />
+            <element signature="e#2463#5442#0" expanded="true" />
+            <element signature="e#2944#3044#0" expanded="true" />
+            <element signature="e#3081#3179#0" expanded="true" />
+            <element signature="e#3214#3310#0" expanded="true" />
+            <element signature="e#3344#3439#0" expanded="true" />
+            <element signature="e#5431#5432#0" expanded="true" />
+            <element signature="e#7453#7505#0" expanded="true" />
           </folding>
         </state>
       </provider>
