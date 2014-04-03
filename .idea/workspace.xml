@@ -4,6 +4,7 @@
     <option name="state">
       <GlobalState>
         <option name="hideForNonLayoutFiles" value="false" />
+        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
@@ -27,7 +28,13 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20799b1f-062c-47b6-85fa-3a971d25bead" name="Default" comment="" />
+    <list default="true" id="20799b1f-062c-47b6-85fa-3a971d25bead" name="Default" comment="Insert checkbox into the login screen&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login_screen.xml" afterPath="$PROJECT_DIR$/res/layout/login_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Polimi Assitant.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,11 +97,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login_screen.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login_screen.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/login_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="36" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.59275055" vertical-offset="2202" max-vertical-offset="3135">
-              <folding />
+            <state line="78" column="47" selection-start="2907" selection-end="2907" vertical-scroll-proportion="1.2653061" vertical-offset="2542" max-vertical-offset="3833">
+              <folding>
+                <element signature="e#1567#1585#0" expanded="true" />
+                <element signature="e#2241#2259#0" expanded="true" />
+                <element signature="e#3292#3307#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer">
@@ -102,11 +113,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginScreen.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LoginScreen.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="9" selection-start="3534" selection-end="3534" vertical-scroll-proportion="0.0" vertical-offset="3534" max-vertical-offset="3658">
-              <folding />
+            <state line="161" column="9" selection-start="4965" selection-end="4965" vertical-scroll-proportion="0.23433875" vertical-offset="4541" max-vertical-offset="5698">
+              <folding>
+                <element signature="e#2118#2749#0" expanded="true" />
+                <element signature="e#2437#2498#0" expanded="true" />
+                <element signature="e#2738#2739#0" expanded="true" />
+                <element signature="e#4699#4751#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,6 +164,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -181,7 +200,7 @@
     <option name="width" value="1922" />
     <option name="height" value="1042" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -207,6 +226,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -331,8 +352,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,23 +589,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="39" width="1922" height="1042" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.3388651" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1960" y="0" width="1321" height="768" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19860813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19860813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -594,9 +615,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.3388651" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1953" y="0" width="1321" height="768" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -612,6 +631,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Insert checkbox into the login screen&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insert checkbox into the login screen&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -934,28 +955,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/login_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="47" selection-start="2907" selection-end="2907" vertical-scroll-proportion="1.2653061" vertical-offset="2542" max-vertical-offset="3833">
+          <folding>
+            <element signature="e#1567#1585#0" expanded="true" />
+            <element signature="e#2241#2259#0" expanded="true" />
+            <element signature="e#3292#3307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="89" selection-start="459" selection-end="459" vertical-scroll-proportion="0.5557769" vertical-offset="0" max-vertical-offset="1122">
+        <state line="13" column="98" selection-start="771" selection-end="771" vertical-scroll-proportion="0.51403064" vertical-offset="0" max-vertical-offset="1590">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="9" selection-start="3534" selection-end="3534" vertical-scroll-proportion="0.0" vertical-offset="3060" max-vertical-offset="3915">
-          <folding />
+        <state line="161" column="9" selection-start="4965" selection-end="4965" vertical-scroll-proportion="0.23433875" vertical-offset="4541" max-vertical-offset="5698">
+          <folding>
+            <element signature="e#2118#2749#0" expanded="true" />
+            <element signature="e#2437#2498#0" expanded="true" />
+            <element signature="e#2738#2739#0" expanded="true" />
+            <element signature="e#4699#4751#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/login_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="36" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.59275055" vertical-offset="2202" max-vertical-offset="3135">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

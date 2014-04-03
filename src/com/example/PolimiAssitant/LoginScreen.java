@@ -6,6 +6,7 @@ import android.content.pm.ActivityInfo;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.view.*;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -20,6 +21,8 @@ public class LoginScreen extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+
+        //////////////////DISPLAY CONFIGURATIONS///////////////////////
 
         /*
          * Avoid banding problems with the gradient background
@@ -40,9 +43,51 @@ public class LoginScreen extends Activity {
 
         setContentView(R.layout.login_screen);
 
+        //////////////////ACTION BAR CONFIGURATIONS///////////////////////
+
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // If your minSdkVersion is 11 or higher, instead use:
         getActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //////////////////LISTENERS///////////////////////
+
+        addListenerOnCheckStorage();
+    }
+
+    /**
+     * Checks if the user agrees to store
+     * the username and password in the device, facing
+     * all the possible consequences and liberating the app
+     * from any responsibility.
+     *
+     */
+    private void addListenerOnCheckStorage() {
+
+
+        //1. Search for the checkbox
+        CheckBox checkstorage = (CheckBox) findViewById(R.id.loginscreen_checkstore);
+
+        //2. Create the listener
+        checkstorage.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                String message;
+
+                //3. is the box checked?
+                if(((CheckBox)v).isChecked()){
+
+                    //3.1 Load the acceptance of responsibility message
+                    message = getResources().getString(R.string.login_store_responsibility);
+                    //3.2 Display the message
+                    Toast.makeText(getApplicationContext(),message, Toast.LENGTH_LONG).show();
+
+                }else{
+                    //No message displayed
+                }
+            }
+        });
     }
 
     @Override
@@ -75,6 +120,8 @@ public class LoginScreen extends Activity {
      * calls the correct classes to handle this.
      *
      * @param view
+     *
+     * TODO: Add the store key method
      */
     public void login(View view){
 
@@ -88,7 +135,7 @@ public class LoginScreen extends Activity {
         EditText edittext_username = (EditText)findViewById(R.id.loginscreen_input_username);
         EditText edittext_password = (EditText)findViewById(R.id.loginscreen_input_password);
 
-        //TODO: Test code to see how everything works
+        //TODO: Test code to see how everything works, erase
 
         //Obtain the text from the view text
         String username = edittext_username.getText().toString();
@@ -97,6 +144,8 @@ public class LoginScreen extends Activity {
         //Pass the values to the intent
         intent.putExtra(USERNAME, username);
         intent.putExtra(PASSWORD, password);
+
+        //TODO:
 
         //3. Test the validity of the credentials
 

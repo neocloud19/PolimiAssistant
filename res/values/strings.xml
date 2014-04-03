@@ -8,6 +8,12 @@
     <string name="login">Login to Polimi!</string>
     <string name="valid_credentials">Correct, Lets go!</string>
     <string name="invalid_credentials">Something is wrong with your username or password!</string>
+    <string name="login_checkstore">Remember me!</string>
+    <string name="login_store_responsibility">
+        If you checked this box, you accept that the application will store you data in the device
+        in the best way possible known to the developers. And the Creators of the app or any entity
+        associated with this applications holds no responsibility if the data is breach by a third party.
+    </string>
 
     <!-- ACTION BAR MENU STRINGS -->
     <string name="action_about">Information about the app</string>
