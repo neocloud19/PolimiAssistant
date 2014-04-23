@@ -1,12 +1,22 @@
-package com.example.PolimiAssitant;
+package com.example.PolimiAssistant;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.example.PolimiAssistant.R;
 
 /**
- * Created by alejo on 3/15/14.
+ * MainMenu.java
+ *
+ * This is the entry point of the application. In here the applications decides
+ * if the user will go to the
  */
 public class MainMenu extends Activity {
+
+    /**
+     * The tag used for the logs.
+     */
+    private static final String TAG = MainMenu.class.getSimpleName();
+
     public void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);

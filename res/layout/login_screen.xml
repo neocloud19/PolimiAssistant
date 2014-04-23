@@ -31,7 +31,7 @@
             -->
 
 
-    <!-- REF: The size of the text is given by trail and error.  -->
+    <!-- REF: The size of the text is given by trial and error.  -->
     <EditText
             android:id="@+id/loginscreen_input_username"
             android:layout_width="290dp"

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Polimi Assitant.iml" filepath="$PROJECT_DIR$/Polimi Assitant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polimi Assistant.iml" filepath="$PROJECT_DIR$/Polimi Assistant.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,7 @@
-package com.example.PolimiAssitant;
+package com.example.PolimiAssistant;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.PixelFormat;
@@ -9,12 +10,28 @@ import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
+/**
+ * SplashScreen.java
+ *
+ * This is the entry point of the application. In here the applications decides
+ * if the user will go to the main menu or to the login screen, by verifying the
+ * existence of an account.
+ */
 public class SplashScreen extends Activity {
-    /**
-     * Called when the activity is first created.
-     */
 
-    // Splash screen timer
+    /**
+     * Log tag
+     */
+    private static final String TAG = SplashScreen.class.getSimpleName();
+
+    /**
+     * Declare the context of the application
+     */
+    private final Context context = this;
+
+    /**
+     * Time that the splash screen will last
+     */
     private static int SPLASH_TIME_OUT = 3000;
 
     @Override
@@ -25,7 +42,6 @@ public class SplashScreen extends Activity {
         /*
          * Avoid banding problems with the gradient background
          */
-
         getWindow().setFormat(PixelFormat.RGBA_8888);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_DITHER);
 
@@ -42,13 +58,13 @@ public class SplashScreen extends Activity {
         setContentView(R.layout.splash_screen);
 
 
-
+        /*
+         * This method allows the splash screen to last more time showing
+         * the logo of the application
+         */
         new Handler().postDelayed(new Runnable() {
 
-            /*
-             * Showing splash screen with a timer. This will be useful when you
-             * want to show case your app logo / company
-             */
+
 
             @Override
             public void run() {
@@ -56,6 +72,9 @@ public class SplashScreen extends Activity {
                 // This method will be executed once the timer is over
                 // Start your app main activity
                 Intent goToLogin = new Intent(SplashScreen.this, LoginScreen.class);
+
+                //Send the intent id to know where is it coming from
+                goToLogin.putExtra("COMING_FROM", context.getClass().getSimpleName());
                 startActivity(goToLogin);
 
                 // close this activity

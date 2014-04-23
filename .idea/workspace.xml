@@ -28,8 +28,25 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20799b1f-062c-47b6-85fa-3a971d25bead" name="Default" comment="Insert checkbox into the login screen&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" />
+    <list default="true" id="20799b1f-062c-47b6-85fa-3a971d25bead" name="Default" comment="ADD packages accountmanager/utils to reorganize the code more efficiently.&#10;&#10;ADD utility and authentication classes&#10;&#10;ADD ability to register an account in the central accountmanager system from android.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/accountmanager/AccountAuthenticator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/accountmanager/AccountAuthenticatorService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/AccountUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/AuthenticationConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/PreferencesUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/SecurityUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/xml/authenticator.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/example/PolimiAssitant/Manifest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/example/PolimiAssitant/R.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Polimi Assitant.iml" afterPath="$PROJECT_DIR$/Polimi Assistant.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/example/PolimiAssitant/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/PolimiAssistant/BuildConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/LoginScreen.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/PolimiAssitant/MainMenu.java" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/MainMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/PolimiAssitant/SplashScreen.java" afterPath="$PROJECT_DIR$/src/com/example/PolimiAssistant/SplashScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/login_screen.xml" afterPath="$PROJECT_DIR$/res/layout/login_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -95,67 +112,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login_screen.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/login_screen.xml">
+      <file leaf-file-name="SplashScreen.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/SplashScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="47" selection-start="2907" selection-end="2907" vertical-scroll-proportion="1.2653061" vertical-offset="2542" max-vertical-offset="3538">
+            <state line="45" column="56" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="3141">
               <folding>
-                <element signature="e#1567#1585#0" expanded="true" />
-                <element signature="e#2241#2259#0" expanded="true" />
-                <element signature="e#2833#2859#0" expanded="true" />
-                <element signature="e#3292#3307#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="AccountAuthenticatorService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/accountmanager/AccountAuthenticatorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="14" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1839">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LoginScreen.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/LoginScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="32" selection-start="2701" selection-end="2701" vertical-scroll-proportion="3.3897707" vertical-offset="403" max-vertical-offset="7015">
+            <state line="373" column="9" selection-start="13629" selection-end="13629" vertical-scroll-proportion="0.33333334" vertical-offset="10882" max-vertical-offset="12552">
               <folding>
-                <element signature="e#2463#5442#0" expanded="true" />
-                <element signature="e#2944#3044#0" expanded="true" />
-                <element signature="e#3081#3179#0" expanded="true" />
-                <element signature="e#3214#3310#0" expanded="true" />
-                <element signature="e#3344#3439#0" expanded="true" />
-                <element signature="e#5431#5432#0" expanded="true" />
-                <element signature="e#7453#7505#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/login_menu.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="49" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="465">
+            <state line="64" column="77" selection-start="2523" selection-end="2523" vertical-scroll-proportion="-4.275" vertical-offset="1813" max-vertical-offset="2778">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_button.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/main_button.xml">
+      <file leaf-file-name="AuthenticationConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/AuthenticationConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="14" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="806">
+            <state line="22" column="31" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1529">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="248">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -177,19 +179,39 @@
         <option value="$PROJECT_DIR$/res/anim/fade_in.xml" />
         <option value="$PROJECT_DIR$/res/drawable/splash_background.xml" />
         <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/com/example/PolimiAssitant/LayoutExtras/ArialTextView.java" />
-        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/SplashScreen.java" />
         <option value="$PROJECT_DIR$/res/layout/splash_screen.xml" />
         <option value="$PROJECT_DIR$/res/anim/fade_out.xml" />
         <option value="$PROJECT_DIR$/res/layout-land/login_screen.xml" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/res/drawable/main_button.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/MainMenu.java" />
         <option value="$PROJECT_DIR$/res/values/themes.xml" />
         <option value="$PROJECT_DIR$/res/menu/login_menu.xml" />
-        <option value="$PROJECT_DIR$/res/layout/login_screen.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/xml/authenticator.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/Constants.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/AccountAuthenticator.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/AccountAuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/AccountAuthenticatorService.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/utils/AuthenticationConstants.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/accountmanager/AccountAuthenticator.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/accountmanager/AccountAuthenticatorService.java" />
         <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/utils/AccountUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/utils/PreferencesUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssitant/utils/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/accountmanager/AccountAuthenticator.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/SecurityUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/PreferencesUtils.java" />
+        <option value="$PROJECT_DIR$/res/layout/login_screen.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/AccountUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/AuthenticationConstants.java" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/SplashScreen.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/PolimiAssistant/LoginScreen.java" />
       </list>
     </option>
   </component>
@@ -228,8 +250,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -262,7 +282,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PolimiAssitant" />
+              <option name="myItemId" value="PolimiAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polimi Assitant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polimi Assitant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolimiAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polimi Assitant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polimi Assitant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PolimiAssistant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accountmanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polimi Assitant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Polimi Assitant" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -281,24 +363,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polimi Assitant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polimi Assitant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menu" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,26 +398,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polimi Assitant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Polimi Assitant" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,30 +419,35 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="695" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="148" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="161" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="184" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="191" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="190" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1315" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1303" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="142" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="241" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="186" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="271" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="193" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="277" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1317" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1049" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/drawable" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.PolimiAssitant" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Polimi Assitant">
@@ -526,8 +579,8 @@
       <method />
     </configuration>
     <configuration default="false" name="Polimi Assitant" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="Polimi Assitant" />
-      <option name="ACTIVITY_CLASS" value="com.example.PolimiAssitant.SplashScreen" />
+      <module name="Polimi Assistant" />
+      <option name="ACTIVITY_CLASS" value="com.example.PolimiAssistant.SplashScreen" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -587,7 +640,11 @@
       <created>1396519948722</created>
       <updated>1396519948722</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ADD Dialog box for responsibility disclaimer acceptance, INSTEAD of the Toast message">
+      <created>1396563743461</created>
+      <updated>1396563743461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -617,20 +674,20 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28082192" sideWeight="0.5008026" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.3388651" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="1960" y="0" width="1321" height="768" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" weight="0.3388651" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="430" y="103" width="611" height="584" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40848213" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924107" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28125" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19860813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19325481" sideWeight="0.49919742" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -655,7 +712,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Insert checkbox into the login screen&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Insert checkbox into the login screen&#10;" />
+    <MESSAGE value="ADD Dialog box for responsibility disclaimer acceptance, INSTEAD of the Toast message" />
+    <MESSAGE value="ADD packages accountmanager/utils to reorganize the code more efficiently.&#10;&#10;ADD utility and authentication classes&#10;&#10;ADD ability to register an account in the central accountmanager system from android." />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD packages accountmanager/utils to reorganize the code more efficiently.&#10;&#10;ADD utility and authentication classes&#10;&#10;ADD ability to register an account in the central accountmanager system from android." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -665,87 +724,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/drawable/splash_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="39" selection-start="180" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="124" max-vertical-offset="434">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="2294">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="1457">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/layout/action_bar_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1333" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/layout/dialog_custom_title_holo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1550" />
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/SplashScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/splash_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="434">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="248">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="310">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1302">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/MainMenu.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="589" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="13" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="589" />
       </provider>
@@ -802,59 +786,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/PolimiAssitant/BuildConfig.java">
+    <entry file="file://$PROJECT_DIR$/gen/com/example/PolimiAssistant/BuildConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="19" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/PolimiAssitant/Manifest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="372" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/example/PolimiAssitant/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="372" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Polimi Assitant.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3038">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ant.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="859" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-xxxhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -896,9 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-land/login_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="1829">
-          <folding />
-        </state>
+        <state line="24" column="0" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="744" max-vertical-offset="1829" />
       </provider>
       <provider editor-type-id="android-designer">
         <state />
@@ -906,33 +841,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/splash_background.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="-4.769231" vertical-offset="0" max-vertical-offset="1107">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="-4.769231" vertical-offset="0" max-vertical-offset="1107" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/main_button.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="14" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="806">
+        <state line="22" column="14" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0" vertical-offset="682" max-vertical-offset="806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_action_about.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_action_settings.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="195" selection-end="195" vertical-scroll-proportion="0.06567796" vertical-offset="124" max-vertical-offset="2549">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="444" selection-end="444" vertical-scroll-proportion="0.063917525" vertical-offset="279" max-vertical-offset="5569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/login_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="49" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/splash_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="558">
+        <state line="7" column="5" selection-start="229" selection-end="229" vertical-scroll-proportion="0.52926826" vertical-offset="0" max-vertical-offset="875">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="444" selection-end="444" vertical-scroll-proportion="0.03889586" vertical-offset="279" max-vertical-offset="5881">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main_menu.xml">
@@ -945,72 +900,175 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/SplashScreen.java">
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="54" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.4675174" vertical-offset="589" max-vertical-offset="2536">
+        <state line="330" column="18" selection-start="14436" selection-end="14436" vertical-scroll-proportion="0.0" vertical-offset="9111" max-vertical-offset="13603" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="452" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="1550">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/MainMenu.java">
+    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="334" selection-end="509" vertical-scroll-proportion="0.4675174" vertical-offset="0" max-vertical-offset="1358" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1451" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/ant.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="19" selection-start="1820" selection-end="1820" vertical-scroll-proportion="2.8823528" vertical-offset="0" max-vertical-offset="2170">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1358">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="195" selection-end="195" vertical-scroll-proportion="-2.3846154" vertical-offset="0" max-vertical-offset="2579">
+        <state line="4" column="30" selection-start="123" selection-end="123" vertical-scroll-proportion="0.21830986" vertical-offset="0" max-vertical-offset="1405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/login_menu.xml">
+    <entry file="file://$PROJECT_DIR$/Polimi Assistant.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="49" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="341" max-vertical-offset="465">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="26" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="2914">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1141">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/accountmanager/AccountAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="40" selection-start="1474" selection-end="1474" vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="3298">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/login_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="47" selection-start="2907" selection-end="2907" vertical-scroll-proportion="1.2653061" vertical-offset="2542" max-vertical-offset="3833">
-          <folding>
-            <element signature="e#1567#1585#0" expanded="true" />
-            <element signature="e#2241#2259#0" expanded="true" />
-            <element signature="e#2833#2859#0" expanded="true" />
-            <element signature="e#3292#3307#0" expanded="true" />
-          </folding>
+        <state line="47" column="0" selection-start="1807" selection-end="1807" vertical-scroll-proportion="-5.377551" vertical-offset="930" max-vertical-offset="3162">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/os/Parcel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="384" selection-end="384" vertical-scroll-proportion="-0.8241309" vertical-offset="682" max-vertical-offset="1450">
+        <state line="1384" column="0" selection-start="48340" selection-end="48340" vertical-scroll-proportion="0.0" vertical-offset="41651" max-vertical-offset="73292">
+          <folding>
+            <element signature="e#0#81352#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8713#8753#0" expanded="false" />
+            <element signature="e#63288#63296#0" expanded="false" />
+            <element signature="e#64034#64043#0" expanded="false" />
+            <element signature="e#76670#76718#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-19/android/accounts/AccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="611" column="0" selection-start="27461" selection-end="27461" vertical-scroll-proportion="0.0" vertical-offset="6231" max-vertical-offset="64705">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/xml/authenticator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="168" selection-end="168" vertical-scroll-proportion="-0.95384616" vertical-offset="0" max-vertical-offset="638">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssitant/LoginScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/SecurityUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="32" selection-start="2701" selection-end="2701" vertical-scroll-proportion="3.3897707" vertical-offset="403" max-vertical-offset="7015">
+        <state line="64" column="14" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.0" vertical-offset="1613" max-vertical-offset="6848">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/PreferencesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="11" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.0" vertical-offset="1520" max-vertical-offset="3345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/AccountUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="25" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="1175" max-vertical-offset="3544">
           <folding>
-            <element signature="e#2463#5442#0" expanded="true" />
-            <element signature="e#2944#3044#0" expanded="true" />
-            <element signature="e#3081#3179#0" expanded="true" />
-            <element signature="e#3214#3310#0" expanded="true" />
-            <element signature="e#3344#3439#0" expanded="true" />
-            <element signature="e#5431#5432#0" expanded="true" />
-            <element signature="e#7453#7505#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="958">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/utils/AuthenticationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="31" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1529">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="77" selection-start="2523" selection-end="2523" vertical-scroll-proportion="-4.275" vertical-offset="1813" max-vertical-offset="2778">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/SplashScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="56" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="3141">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/accountmanager/AccountAuthenticatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="14" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="772" max-vertical-offset="1839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/PolimiAssistant/LoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="373" column="9" selection-start="13629" selection-end="13629" vertical-scroll-proportion="0.33333334" vertical-offset="10882" max-vertical-offset="12552">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1032,7 +1090,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android</last-edited>
+          <last-edited>Android (Polimi Assistant)|Android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1055,7 +1113,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>Android API 19 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1067,7 +1125,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Polimi Assitant</last-edited>
+          <last-edited>Polimi Assistant</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

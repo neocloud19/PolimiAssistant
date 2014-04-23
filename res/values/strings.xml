@@ -6,9 +6,25 @@
     <string name="username">Write your student number</string>
     <string name="password">Write your password here</string>
     <string name="login">Login to Polimi!</string>
-    <string name="valid_credentials">Correct, Lets go!</string>
-    <string name="invalid_credentials">Something is wrong with your username or password!</string>
     <string name="login_checkstore">Remember me!</string>
+
+    <string name="info_valid_credentials">Correct, Lets go!</string>
+    <string name="info_add_account_successful">Correct, Lets go!</string>
+
+    <string name="warning_username_empty">Username cannot be empty</string>
+    <string name="warning_password_empty">Password cannot be empty</string>
+    <string name="warning_account_already_exist">
+        Account already exist! Its not necessary to create a new one.
+    </string>
+
+    <string name="error_invalid_credentials">
+        Something is wrong with your username or password! Try to login again, after verify
+        that the information is correct
+    </string>
+    <string name="error_creating_account">
+        Something went wrong while trying to create the account. If the error persist,
+        file an error report in the Play Store. We are sorry for the inconvenience!
+    </string>
 
     <!-- LOGIN STRINGS: Responsibility acceptance message -->
     <string name="login_storing_responsibility_message">
