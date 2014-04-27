@@ -19,24 +19,23 @@
                  android:theme="@style/PolimiMobile">
 
         <!-- ACTIVITIES -->
-
         <!-- Splash screen -->
         <activity android:name="com.example.PolimiAssistant.SplashScreen"
-                  android:label="@string/layout_title_splashscreen">
+                   android:label="@string/layout_title_splashscreen">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
 
-        </activity>
+         </activity>
 
-        <!-- Main screen -->
+         <!-- Main screen -->
         <activity android:name="com.example.PolimiAssistant.MainMenu"
                 android:label="@string/layout_title_menu"
                 android:parentActivityName="com.example.PolimiAssistant.LoginScreen">
 
-            <!-- Parent activity meta-data to support 4.0 and lower -->
+
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.PolimiAssistant.LoginScreen" />
@@ -48,13 +47,12 @@
                 android:label="@string/layout_title_login"
                 android:parentActivityName="com.example.PolimiAssistant.SplashScreen">
 
-            <!-- Parent activity meta-data to support 4.0 and lower -->
+
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.PolimiAssistant.SplashScreen" />
 
         </activity>
-
 
         <!-- SERVICES -->
 
